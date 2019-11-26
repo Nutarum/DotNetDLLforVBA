@@ -1,0 +1,10 @@
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\bin\x86\Debug\testDllProject.dll
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\bin\x86\Debug\testDllProject.pdb
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\bin\x86\Debug\testDllProject.xml
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\testDllProject.Resources.resources
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\testDllProject.dll
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\testDllProject.xml
+c:\users\d804500\documents\visual studio 2010\Projects\testDllProject\testDllProject\obj\x86\Debug\testDllProject.pdb

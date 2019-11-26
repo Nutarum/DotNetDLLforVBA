@@ -1,0 +1,5 @@
+c:\users\d804500\documents\visual studio 2010\Projects\testDLLProjectCSHARP\testDLLProjectCSHARP\bin\x86\Debug\testDLLProjectCSHARP.dll
+c:\users\d804500\documents\visual studio 2010\Projects\testDLLProjectCSHARP\testDLLProjectCSHARP\bin\x86\Debug\testDLLProjectCSHARP.pdb
+c:\users\d804500\documents\visual studio 2010\Projects\testDLLProjectCSHARP\testDLLProjectCSHARP\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\d804500\documents\visual studio 2010\Projects\testDLLProjectCSHARP\testDLLProjectCSHARP\obj\x86\Debug\testDLLProjectCSHARP.dll
+c:\users\d804500\documents\visual studio 2010\Projects\testDLLProjectCSHARP\testDLLProjectCSHARP\obj\x86\Debug\testDLLProjectCSHARP.pdb
