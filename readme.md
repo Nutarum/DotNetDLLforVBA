@@ -169,3 +169,49 @@ using System.IO;
         }
     }
 ```
+
+## CODIGO C# 
+#### OTRO EJEMPLO PARA ENVIAR PAQUETES UDP 
+
+```
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+using System.Net;
+using System.Net.Sockets;
+
+using RGiesecke.DllExport;
+using System.Runtime.InteropServices;
+
+namespace UdpSender{
+    [ComVisible(true)]
+    public class Class1{         
+        public string send(String ip, String port, String msg){
+            Socket sock = new Socket(AddressFamily.InterNetwork, SocketType.Dgram,ProtocolType.Udp);
+
+            IPAddress serverAddr = IPAddress.Parse(ip);
+
+            int portInt = 0;
+            if (!Int32.TryParse(port, out portInt)) {
+                //si el parse a int no es posible, finalizamos, devolviendo un error
+                return "Error: imposible transformar puerto (" + port + ") a numero)";
+            }
+            IPEndPoint endPoint = new IPEndPoint(serverAddr, portInt);
+            byte[] send_buffer = Encoding.ASCII.GetBytes(msg);
+            sock.SendTo(send_buffer, endPoint);
+            return "";
+        }     
+    }
+
+    static class UnmanagedExports {
+        [DllExport]
+        [return: MarshalAs(UnmanagedType.IDispatch)]
+        static Object LoadUdpSender() {
+            return new Class1();
+        }
+    }
+}
+```
